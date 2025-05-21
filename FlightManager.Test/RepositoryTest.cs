@@ -1,5 +1,4 @@
 ﻿using System.Threading.Tasks;
-using Castle.Core.Logging;
 using FlightManager.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -18,7 +17,7 @@ namespace FlightManager.Test
 
         Mock<ILogger<FlightRepository>> _mockFlightRepositoryLogger;
          
-        readonly string _connectionString = "Server=localhost;Database=FlightManager;User ID=sa;Password=Joshua@01234;";
+        readonly string _connectionString = "Server=localhost;Database=FlightManager;User ID=sa;Password=MyPassword;";
 
         [TestInitialize]
         public void Setup()
