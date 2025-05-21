@@ -1,0 +1,27 @@
+﻿@if (ViewBag.SuccessMessage != null)
+{
+    <script>
+        toastr.success('@ViewBag.SuccessMessage');
+    </script>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <script>
+        toastr.success('@TempData["SuccessMessage"]');
+    </script>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <script>
+        toastr.error('@ViewBag.ErrorMessage');
+    </script>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <script>
+        toastr.error('@TempData["ErrorMessage"]');
+    </script>
+}
+

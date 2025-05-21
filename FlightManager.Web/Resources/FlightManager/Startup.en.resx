@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="DropDownSelect" xml:space="preserve">
+        <value>Select</value>
+    </data>
+	<data name="ButtonAddFlight" xml:space="preserve">
+        <value>Add Flight</value>
+    </data>
+	<data name="ButtonUpdateFlight" xml:space="preserve">
+        <value>Update Flight</value>
+    </data>
+	<data name="ButtonClear" xml:space="preserve">
+        <value>Clear</value>
+    </data>
+	<data name="ButtonEdit" xml:space="preserve">
+        <value>Edit</value>
+    </data>
+	<data name="ButtonDelete" xml:space="preserve">
+        <value>Delete</value>
+    </data>
+	<data name="MessageNoFlightsFound" xml:space="preserve">
+        <value>No Flights Found</value>
+    </data>
+	<data name="HeaderDeparture" xml:space="preserve">
+        <value>Departure</value>
+    </data>
+	<data name="HeaderDestination" xml:space="preserve">
+        <value>Destination</value>
+    </data>
+	<data name="HeaderAircraftType" xml:space="preserve">
+        <value>Aircraft Type</value>
+    </data>
+	<data name="HeaderDistanceKm" xml:space="preserve">
+        <value>Distance (Km)</value>
+    </data>
+	<data name="HeaderFuelL" xml:space="preserve">
+        <value>Fuel (L)</value>
+    </data>
+    <data name="DepartureAirport" xml:space="preserve">
+        <value>Departure Airport</value>
+    </data>
+    <data name="DestinationAirport" xml:space="preserve">
+        <value>Destination Airport</value>
+    </data>
+    <data name="AircraftType" xml:space="preserve">
+        <value>Aircraft Type</value>
+    </data>
+    <data name="Distance" xml:space="preserve">
+        <value>Distance</value>
+    </data>
+    <data name="FuelConsumption" xml:space="preserve">
+        <value>Fuel Consumption</value>
+    </data>
+    <data name="Flights" xml:space="preserve">
+        <value>Flights</value>
+    </data>
+    <data name="FlightInformation" xml:space="preserve">
+        <value>Flight Information</value>
+    </data>
+    <data name="Flight" xml:space="preserve">
+        <value>DestiFlightnation</value>
+    </data>
+</root>

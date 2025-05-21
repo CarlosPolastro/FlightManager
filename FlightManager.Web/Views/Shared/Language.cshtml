@@ -1,0 +1,8 @@
+﻿@using System.Globalization
+
+<form id="langForm" asp-controller="Language" asp-action="SetLanguage" method="post" class="mb-3">
+    <select name="culture" class="form-select form-select-sm" onchange="document.getElementById('langForm').submit();">
+        <option value="en" selected="@((CultureInfo.CurrentCulture.Name == "en") ? "selected" : null)">English</option>
+        <option value="pt-PT" selected="@((CultureInfo.CurrentCulture.Name == "pt-PT") ? "selected" : null)">Português</option>
+    </select>
+</form>

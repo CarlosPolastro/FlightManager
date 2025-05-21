@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DTOS\" />
+    <None Remove="DTOS\Input\" />
+    <None Remove="DTOS\Output\" />
+    <None Remove="DataAnnotations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTOS\" />
+    <Folder Include="DTOS\Input\" />
+    <Folder Include="DTOS\Output\" />
+    <Folder Include="DataAnnotations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.0" />
+  </ItemGroup>
+</Project>

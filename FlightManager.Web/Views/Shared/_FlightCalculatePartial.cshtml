@@ -1,0 +1,24 @@
+﻿@using FlightManager.Domain.DTOS;
+@using Microsoft.AspNetCore.Mvc.Localization;
+@inject IHtmlLocalizer<Startup> SharedLocalizer
+
+@model FlightDTO
+
+<div class="row">
+    <div class="col-2">
+        <span>@SharedLocalizer["Distance"]</span>
+    </div>
+    <div class="col-10">
+        @String.Format("{0:N2}", Model.DistanceKm) Kilometers
+        @Html.HiddenFor(model => model.DistanceKm)
+    </div>
+</div>
+<div class="row">
+    <div class="col-2">
+        <span>@SharedLocalizer["FuelConsumption"]</span>
+    </div>
+    <div class="col-10">
+        @String.Format("{0:N2}", Model.TotalFuelLiter) Liters
+        @Html.HiddenFor(model => model.TotalFuelLiter)
+    </div>
+</div>
